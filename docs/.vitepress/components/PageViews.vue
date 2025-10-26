@@ -1,22 +1,23 @@
 <script setup>
-import { ref, onMounted } from 'vue'
+import { onMounted } from 'vue'
 
-const count = ref(0)
-
-onMounted(async () => {
-  try {
-    const response = await fetch('https://api.countapi.xyz/hit/yilei-wu.github.io/visits')
-    const data = await response.json()
-    count.value = data.value
-  } catch (error) {
-    console.error('Failed to fetch page views:', error)
-  }
+onMounted(() => {
+  // 加载不蒜子脚本
+  const script = document.createElement('script')
+  script.src = '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js'
+  script.async = true
+  document.head.appendChild(script)
 })
 </script>
 
 <template>
   <div class="page-views">
-    <span>访问量：{{ count }}</span>
+    <span id="busuanzi_container_site_pv" style="display: none">
+      总访问量：<span id="busuanzi_value_site_pv"></span>
+    </span>
+    <span id="busuanzi_container_site_uv" style="display: none">
+      | 访客数：<span id="busuanzi_value_site_uv"></span>
+    </span>
   </div>
 </template>
 
