@@ -1,5 +1,6 @@
 ---
 layout: home
+
 hero:
   name: "Yilei's Blog"
   text: "记录与分享"
@@ -11,6 +12,7 @@ hero:
     - theme: alt
       text: 关于
       link: /about
+
 features:
   - icon: ✍️
     title: 写作
@@ -18,3 +20,11 @@ features:
   - icon: 💡
     title: 分享
     details: 交流想法与经验
+
+---
+
+<script setup>
+import PageViews from './.vitepress/components/PageViews.vue'
+</script>
+
+<PageViews />

@@ -4,15 +4,15 @@
 
 ## 个人简介
 
-我是一名热爱技术和写作的开发者。这个博客是我用来分享技术见解、学习心得和生活感悟的地方。
+我是一名热爱技术和写作的开发者。这个博客是我用来分享学习心得和生活感悟的地方。
 
 ## 联系方式
 
-- GitHub: [你的GitHub主页]
-- Email: [你的邮箱]
+- GitHub: [https://github.com/yilei-wu]
+- Email: [yilei.wu@u.nus.edu]
 
 ## 关于本站
 
-本站使用 [VitePress](https://vitepress.dev/) 构建，采用简约的设计风格，专注于内容的呈现。
+本站使用 [VitePress](https://vitepress.dev/)。
 
 感谢您的访问！
