@@ -11,7 +11,8 @@ export default {
         {
           text: '文章',
           items: [
-            { text: '第一篇', link: '/posts/first-post' }
+            { text: '第一篇', link: '/posts/first-post' },
+            { text: '第二篇', link: '/posts/second-post' }
           ]
         }
       ]
